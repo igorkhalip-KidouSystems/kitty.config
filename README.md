@@ -24,7 +24,7 @@ This configuration is designed to enhance your kitty terminal experience. The re
 ### 1. Clone the Repository
 Clone the repo to your local machine:
 ```bash
-git clone https://github.com/igorkhalip-KidouSystems/kitty.config.git
+git clone https://github.com/igorkhalip-KidouSystems/kitty.config.git ~/.config/kitty
 cd kitty.config
 ```
 
