@@ -50,6 +50,11 @@ To integrate kitty with your desktop environment, follow these steps:
 To set kitty as your default terminal emulator:
 
 - **Using update-alternatives (Ubuntu/Debian):**
+  First add it to your alternatives.
+  ```sh
+  sudo update-alternatives --install /usr/bin/x-terminal-emulator x-terminal-emulator $(readlink -f ~/.local/kitty.app/bin/kitty) 50
+  ```
+  Then chose it from your alternatives.
   ```sh
   sudo update-alternatives --config x-terminal-emulator
   ```
